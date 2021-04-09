@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95189664159",
+    "project_id": "hoohacks-8f4aa",
+    "storage_bucket": "hoohacks-8f4aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95189664159:android:b233a32a61f06bf47b3daa",
+        "android_client_info": {
+          "package_name": "com.example.know_your_medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95189664159-clv7m09tki2313u83v26ml1h5l1s1kv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLkjVuIU_4JOIJU7aU-yv3ltrtN2ZXBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95189664159-clv7m09tki2313u83v26ml1h5l1s1kv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
