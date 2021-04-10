@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:clippy_flutter/paralellogram.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/sign_in.dart';
 
 class GetStarted extends StatefulWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/modules/staff_constants.dart';
-import 'package:know_your_medic/modules/user_constants.dart';
-import 'package:know_your_medic/views/Chat/chat_screen.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/modules/staff_constants.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
+import 'package:technica_know_your_medic/views/Chat/chat_screen.dart';
 
 class ChatRoomListTile extends StatefulWidget {
   final String chatRoomId;

@@ -4,6 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/sign_in.dart';
+import 'package:technica_know_your_medic/helper/shared_preferences.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
+import 'package:technica_know_your_medic/services/auth.dart';
+import 'package:technica_know_your_medic/services/database.dart';
+import 'package:technica_know_your_medic/views/user_navigator.dart';
 
 class SignUp extends StatefulWidget {
   @override

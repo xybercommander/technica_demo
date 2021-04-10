@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:technica_know_your_medic/models/profile.dart';
 
 class AuthMethods {
   final FirebaseAuth _auth = FirebaseAuth.instance;

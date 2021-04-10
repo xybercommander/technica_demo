@@ -1,6 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/sign_up.dart';
+import 'package:technica_know_your_medic/services/auth.dart';
+import 'package:technica_know_your_medic/services/database.dart';
+
+import 'auth_checker.dart';
 
 class SignIn extends StatefulWidget {
   @override

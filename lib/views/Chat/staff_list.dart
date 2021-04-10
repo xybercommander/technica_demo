@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
+import 'package:technica_know_your_medic/services/database.dart';
+import 'package:technica_know_your_medic/views/Chat/chat_screen.dart';
 
 class StaffList extends StatefulWidget {
   @override

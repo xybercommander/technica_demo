@@ -1,4 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:technica_know_your_medic/modules/staff_constants.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
 
 class DatabaseMethods {
 

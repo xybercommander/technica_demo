@@ -1,5 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart';
+import 'package:technica_know_your_medic/modules/diagnosis_module.dart';
+import 'package:technica_know_your_medic/modules/symptoms_module.dart';
 
 class MedicApi {
 
