@@ -1,9 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/AuthPages/auth_checker.dart';
-import 'package:know_your_medic/AuthPages/sign_up.dart';
-import 'package:know_your_medic/services/database.dart';
-import 'package:know_your_medic/services/auth.dart';
 import 'package:page_transition/page_transition.dart';
 
 class SignIn extends StatefulWidget {

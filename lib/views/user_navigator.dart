@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/views/Chat/chatroomlist.dart';
-import 'package:know_your_medic/views/Chat/staff_list.dart';
-import 'package:know_your_medic/views/UserPages/user_symptoms_page.dart';
-import 'package:know_your_medic/views/UserPages/user_profile_page.dart';
+
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/views/Chat/chatroomlist.dart';
+import 'package:technica_know_your_medic/views/Chat/staff_list.dart';
+import 'package:technica_know_your_medic/views/UserPages/user_profile_page.dart';
+import 'package:technica_know_your_medic/views/UserPages/user_symptoms_page.dart';
 
 class UserNavigator extends StatefulWidget {
   @override

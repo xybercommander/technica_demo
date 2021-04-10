@@ -1,11 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/helper/shared_preferences.dart';
-import 'package:know_your_medic/modules/staff_constants.dart';
-import 'package:know_your_medic/modules/user_constants.dart';
-import 'package:know_your_medic/views/Chat/chatroomlist.dart';
-import 'package:know_your_medic/views/StaffPages/staff_home_page.dart';
-import 'package:know_your_medic/views/user_navigator.dart';
 import 'package:page_transition/page_transition.dart';
 
 class AuthChecker extends StatefulWidget {
