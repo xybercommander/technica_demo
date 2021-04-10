@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'package:page_transition/page_transition.dart';
 import 'package:technica_know_your_medic/views/Chat/chatroomlist.dart';
 import 'package:technica_know_your_medic/views/Chat/staff_list.dart';
+import 'package:technica_know_your_medic/views/UserPages/user_main_page.dart';
 import 'package:technica_know_your_medic/views/UserPages/user_profile_page.dart';
-import 'package:technica_know_your_medic/views/UserPages/user_symptoms_page.dart';
 
 class UserNavigator extends StatefulWidget {
   @override
@@ -13,7 +12,7 @@ class UserNavigator extends StatefulWidget {
 
 class _UserNavigatorState extends State<UserNavigator> {
   PageController pageController = PageController(initialPage: 0);
-  List<Widget> pages = [UserSymptomsPage(), UserProfilePage()];
+  List<Widget> pages = [UserMainPage(), UserProfilePage()];
   int _selectedIndex = 0;
 
 
