@@ -33,6 +33,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95189664159:android:6829b82b6f0cc53a7b3daa",
+        "android_client_info": {
+          "package_name": "com.example.technica_know_your_medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95189664159-clv7m09tki2313u83v26ml1h5l1s1kv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLkjVuIU_4JOIJU7aU-yv3ltrtN2ZXBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95189664159-clv7m09tki2313u83v26ml1h5l1s1kv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
