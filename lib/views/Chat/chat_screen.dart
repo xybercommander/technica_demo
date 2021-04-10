@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:encrypt/encrypt.dart';
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/helper/shared_preferences.dart';
-import 'package:know_your_medic/modules/encryption_constants.dart';
-import 'package:know_your_medic/services/database.dart';
 import 'package:random_string/random_string.dart';
+import 'package:technica_know_your_medic/helper/shared_preferences.dart';
+import 'package:technica_know_your_medic/modules/encryption_constants.dart';
+import 'package:technica_know_your_medic/services/database.dart';
 
 class ChatScreen extends StatefulWidget {
   final String chatWithName;

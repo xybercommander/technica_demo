@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:know_your_medic/modules/diagnosis_module.dart';
+import 'package:technica_know_your_medic/modules/diagnosis_module.dart';
+
 
 class DiagnosisPage extends StatefulWidget {
   @override

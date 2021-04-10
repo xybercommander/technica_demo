@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/services/api.dart';
-import 'package:know_your_medic/views/UserPages/diagnosis.dart';
+
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/services/api.dart';
+import 'package:technica_know_your_medic/views/UserPages/diagnosis.dart';
 
 class UserDetails extends StatefulWidget {
   final List symptoms;

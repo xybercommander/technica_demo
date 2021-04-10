@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/AuthPages/sign_in.dart';
-import 'package:know_your_medic/helper/shared_preferences.dart';
-import 'package:know_your_medic/modules/user_constants.dart';
-import 'package:know_your_medic/services/auth.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/sign_in.dart';
+import 'package:technica_know_your_medic/helper/shared_preferences.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
+import 'package:technica_know_your_medic/services/auth.dart';
 
 class UserProfilePage extends StatefulWidget {
   @override

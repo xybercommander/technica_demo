@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/AuthPages/sign_in.dart';
-import 'package:know_your_medic/services/auth.dart';
+
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/sign_in.dart';
+import 'package:technica_know_your_medic/services/auth.dart';
 
 class StaffHomePage extends StatefulWidget {
   @override

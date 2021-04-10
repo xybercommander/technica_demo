@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/modules/symptoms_module.dart';
-import 'package:know_your_medic/views/UserPages/user_details.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/modules/symptoms_module.dart';
+import 'package:technica_know_your_medic/views/UserPages/user_details.dart';
 
 class UserSymptomsPage extends StatefulWidget {
   @override

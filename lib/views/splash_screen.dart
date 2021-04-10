@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:know_your_medic/AuthPages/get_started.dart';
-import 'package:know_your_medic/helper/shared_preferences.dart';
-import 'package:know_your_medic/modules/staff_constants.dart';
-import 'package:know_your_medic/modules/user_constants.dart';
-import 'package:know_your_medic/services/api.dart';
-import 'package:know_your_medic/views/Chat/chatroomlist.dart';
-import 'package:know_your_medic/views/user_navigator.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:technica_know_your_medic/AuthPages/get_started.dart';
+import 'package:technica_know_your_medic/helper/shared_preferences.dart';
+import 'package:technica_know_your_medic/modules/staff_constants.dart';
+import 'package:technica_know_your_medic/modules/user_constants.dart';
+import 'package:technica_know_your_medic/services/api.dart';
+import 'package:technica_know_your_medic/views/Chat/chatroomlist.dart';
+import 'package:technica_know_your_medic/views/user_navigator.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
