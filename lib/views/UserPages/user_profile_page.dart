@@ -17,7 +17,6 @@ class _UserProfilePageState extends State<UserProfilePage> {
   _logout() {
     authMethods.signOut()
       .then((_) {
-        SharedPref.saveLoggedInSharedPreference(false);
         Navigator.pushReplacement(context, PageTransition(child: SignIn(), type: PageTransitionType.fade));
       });
   }
@@ -38,10 +37,8 @@ class _UserProfilePageState extends State<UserProfilePage> {
                   backgroundColor: Colors.transparent,
                   radius: 70,
             ),
-            SizedBox(height: 20,),
-            Text(UserConstants.name, style: TextStyle(fontSize: 20, color: Colors.black, fontFamily: 'Quicksand-SemiBold'),),            
-            Text(UserConstants.email, style: TextStyle(fontSize: 20, color: Colors.black, fontFamily: 'Quicksand-SemiBold'),),
-            SizedBox(height: 10,),
+            Text(UserConstants.name, style: TextStyle(fontSize: 20, color: Colors.black),),
+            Text(UserConstants.email, style: TextStyle(fontSize: 20, color: Colors.black),),
             IconButton(
               onPressed: () {
                 _logout();
