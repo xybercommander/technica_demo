@@ -37,8 +37,10 @@ class _UserProfilePageState extends State<UserProfilePage> {
                   backgroundColor: Colors.transparent,
                   radius: 70,
             ),
-            Text(UserConstants.name, style: TextStyle(fontSize: 20, color: Colors.black),),
-            Text(UserConstants.email, style: TextStyle(fontSize: 20, color: Colors.black),),
+            SizedBox(height: 20,),
+            Text(UserConstants.name, style: TextStyle(fontSize: 20, color: Colors.black, fontFamily: 'Quicksand-SemiBold'),),            
+            Text(UserConstants.email, style: TextStyle(fontSize: 20, color: Colors.black, fontFamily: 'Quicksand-SemiBold'),),
+            SizedBox(height: 10,),
             IconButton(
               onPressed: () {
                 _logout();

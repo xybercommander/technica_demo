@@ -74,7 +74,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     end: Alignment.centerRight,
                     colors: [
                   sendByMe ? Theme.of(context).primaryColor : Color.fromRGBO(194, 200, 197, 1),
-                  sendByMe ? Theme.of(context).primaryColor.withOpacity(0.7) : Color.fromRGBO(221, 221, 218, 1),
+                  sendByMe ? Theme.of(context).primaryColor.withOpacity(0.8) : Color.fromRGBO(221, 221, 218, 1),
                 ])),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
