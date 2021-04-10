@@ -68,6 +68,7 @@ class _ChatRoomListState extends State<ChatRoomList> {
   logout() {
     authMethods.signOut()
       .then((_) {
+        SharedPref.saveLoggedInSharedPreference(false);
         Navigator.pushReplacement(context, PageTransition(child: SignIn(), type: PageTransitionType.fade));
       });
   }
