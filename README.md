@@ -40,3 +40,15 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
   <li>random_string: ^2.1.0</li>
   <li>lottie: ^1.0.1 </li>
 </ul>
+
+## Screenshots of different Views in the Application
+<ul>
+  <li><img src="https://i.imgur.com/2C01HLM.png"></li>
+  <li><img src="https://i.imgur.com/7yNAMdy.png"></li>
+  <li><img src="https://i.imgur.com/mhOh4jK.png"></li>
+  <li><img src="https://i.imgur.com/otRh7w8.png"></li>
+  <li><img src="https://i.imgur.com/L6SdKF7.png"></li>
+  <li><img src="https://i.imgur.com/5TEP3Dt.png"></li>
+  <li><img src="https://i.imgur.com/BUgmjIg.png"></li>
+  <li><img src="https://i.imgur.com/jw1Nkcl.png"></li>
+</ul>
