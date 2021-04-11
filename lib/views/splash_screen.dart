@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:technica_know_your_medic/AuthPages/get_started.dart';
 import 'package:technica_know_your_medic/helper/shared_preferences.dart';
@@ -74,10 +75,18 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          'Hola!',
-          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black),
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Hola!',
+              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black),
+            ),
+            Lottie.asset('assets/animations/loading-lottie.json')
+          ],
         ),
       ),
     );

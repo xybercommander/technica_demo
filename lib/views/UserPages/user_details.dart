@@ -79,13 +79,13 @@ class _UserDetailsState extends State<UserDetails> {
                         groupValue: _radioValue,
                         onChanged: _handleRadioValueChange,
                       ),
-                      Text('Male'),
+                      Text('Male', style: TextStyle(fontWeight: FontWeight.bold),),
                       Radio(
                         value: 1,
                         groupValue: _radioValue,
                         onChanged: _handleRadioValueChange,
                       ),
-                      Text('Female'),
+                      Text('Female', style: TextStyle(fontWeight: FontWeight.bold),)
                     ],
                   ),
                   Container(
