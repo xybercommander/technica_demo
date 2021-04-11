@@ -18,6 +18,8 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
 ## Implementations
 <ul>
   <li><strong>Chat implementation can be found <a href="https://github.com/xybercommander/technica_demo/tree/master/lib/views/Chat">here</a><strong></li>
+  <li><strong>Api implementation can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/api.dart">here</a><strong></li>
+  <li><strong>All Firebase implementaion can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/database.dart">here</a><strong>
 </ul>
 
 ## Packages used
