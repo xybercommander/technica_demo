@@ -24,7 +24,7 @@ class DatabaseMethods {
       .snapshots();
   }
 
-  // adding a message to chats sub-collection of chatrooms collection
+  // ------------ADDING MESSAGES TO CHATROOMS COLLECTION------------ //
   Future addMessage(String chatRoomId, String messageId, Map messageInfoMap) {
     return FirebaseFirestore.instance.collection('chatrooms')
       .doc(chatRoomId)
@@ -33,14 +33,14 @@ class DatabaseMethods {
       .set(messageInfoMap);
   }
 
-  // Updating the last message sent collections
+  // ------------UPDATING THE LAST MESSAGE IN CHATROOMS------------ //
   updateLastMessageSent(String chatRoomId, Map lastMessageInfoMap) {
     return FirebaseFirestore.instance.collection('chatrooms')
       .doc(chatRoomId)
       .update(lastMessageInfoMap);
   }
 
-  // Creating or searching for new or existing chatrooms
+  // ------------CREATING OR SEARCHING FOR EXISTING CHATROOMS------------ //
   createChatRoom(String chatRoomId, Map chatRoomInfoMap) async {
     final snapshot = await FirebaseFirestore.instance.collection('chatrooms')
       .doc(chatRoomId)
@@ -57,7 +57,7 @@ class DatabaseMethods {
     }
   }
 
-  // retrieving the chat messages
+  // ------------RETRIEVING THE CHAT MESSAGES------------ //
   Future<Stream<QuerySnapshot>> getChatRoomMessages(chatRoomId) async {
     return FirebaseFirestore.instance.collection('chatrooms')
       .doc(chatRoomId)
@@ -66,7 +66,7 @@ class DatabaseMethods {
       .snapshots();
   }
 
-  // Getting the list of all the chatrooms created
+  // ------------GETTING THE LIST OF ALL THE CHATROOMS------------ //
   Future<Stream<QuerySnapshot>> getChatRooms(isStaff) async {
     String name;
     if(isStaff) {
