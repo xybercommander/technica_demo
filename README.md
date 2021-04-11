@@ -6,8 +6,10 @@
 ## A Flutter project made with ❤️
 
 A Flutter project for correct diagnosis of a person with observable Health Symptoms<br>
-The demo video can be found here: https://www.youtube.com/watch?v=-MChe1MvF6U&ab_channel=SamratMukherjee
-The Presentation(ppt) can be found here: https://www.canva.com/design/DAEbLHrAAj4/o4t-MiusVpeUzU045J1frg/view
+<ul>
+  <li>The demo video can be found here: https://www.youtube.com/watch?v=-MChe1MvF6U&ab_channel=SamratMukherjee<br></li>
+  <li>The Presentation(ppt) can be found here: https://www.canva.com/design/DAEbLHrAAj4/o4t-MiusVpeUzU045J1frg/view</li>
+</ul>
 
 ## The Api used
 The files for the api can be found at: <br>
