@@ -190,7 +190,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         // onChanged: (value) {
                         //   addMessage(false);
                         // },
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: 'type a message..',
