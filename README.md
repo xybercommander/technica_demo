@@ -1,7 +1,7 @@
 # Know Your Medic
 
 <p align="center">
-  <img width="150" height="300" src="https://i.imgur.com/2C01HLM.png">
+  <img width="300" height="600" src="https://i.imgur.com/2C01HLM.png">
 </p>
 
 ## A Flutter project made with ❤️
