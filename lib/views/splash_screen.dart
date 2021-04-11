@@ -85,7 +85,7 @@ class _SplashScreenState extends State<SplashScreen> {
               'Hola!',
               style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.black),
             ),
-            Lottie.asset('assets/animations/loading-lottie.json')
+            Lottie.asset('assets/animations/loading-lottie.json', width: 200, height: 200)
           ],
         ),
       ),

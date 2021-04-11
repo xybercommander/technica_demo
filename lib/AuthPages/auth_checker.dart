@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:technica_know_your_medic/helper/shared_preferences.dart';
 import 'package:technica_know_your_medic/modules/staff_constants.dart';
@@ -80,7 +81,7 @@ class _AuthCheckerState extends State<AuthChecker> {
           });
 
           return Center(
-            child: CircularProgressIndicator(),
+            child: Lottie.asset('assets/animations/loading-lottie.json'),
           );
         },
       ),
