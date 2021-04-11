@@ -64,7 +64,7 @@ class _UserSymptomsPageState extends State<UserSymptomsPage> {
 
       floatingActionButton: symptoms_selected != 0 
         ?   FloatingActionButton.extended(
-              label: Text('$symptoms_selected symptoms selected', style: TextStyle(color: Colors.white),),
+              label: Text('$symptoms_selected symptoms selected', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
               icon: Icon(Icons.search, color: Colors.white,),
               backgroundColor: Theme.of(context).primaryColor,              
               onPressed: () {
