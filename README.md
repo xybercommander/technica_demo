@@ -1,12 +1,15 @@
 # Know Your Medic
-
 <p align="center">
   <img width="300" height="600" src="https://i.imgur.com/2C01HLM.png">
 </p>
 
 ## A Flutter project made with ❤️
 
-A Flutter project for correct diagnosis of a person with observable Health Symptoms
+A Flutter project for correct diagnosis of a person with observable Health Symptoms<br>
+<ul>
+  <li>The demo video can be found here: https://www.youtube.com/watch?v=-MChe1MvF6U&ab_channel=SamratMukherjee<br></li>
+  <li>The Presentation(ppt) can be found here: https://www.canva.com/design/DAEbLHrAAj4/o4t-MiusVpeUzU045J1frg/view</li>
+</ul>
 
 ## The Api used
 The files for the api can be found at: <br>
@@ -39,4 +42,16 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
   <li>encrypt: ^5.0.0</li>
   <li>random_string: ^2.1.0</li>
   <li>lottie: ^1.0.1 </li>
+</ul>
+
+## Screenshots of different Views in the Application
+<ul>
+  <li><h3>Get Started Page</h3><br><img width="300" height="600" src="https://i.imgur.com/2C01HLM.png"></li>
+  <li><h3>Sign Up Page</h3><br><img width="300" height="600" src="https://i.imgur.com/7yNAMdy.png"></li>
+  <li><h3>Sign In Page</h3><br><img width="300" height="600" src="https://i.imgur.com/mhOh4jK.png"></li>
+  <li><h3>Symptoms List Page</h3><br><img width="300" height="600" src="https://i.imgur.com/otRh7w8.png"></li>
+  <li><h3>Patient Details Page</h3><br><img width="300" height="600" src="https://i.imgur.com/L6SdKF7.png"></li>
+  <li><h3>Digital Diagnosis Page</h3><br><img width="300" height="600" src="https://i.imgur.com/5TEP3Dt.png"></li>
+  <li><h3>Chatrooms List Page</h3><br><img width="300" height="600" src="https://i.imgur.com/BUgmjIg.png"></li>
+  <li><h3>Chat Screen Page</h3><br><img width="300" height="600" src="https://i.imgur.com/jw1Nkcl.png"></li>
 </ul>
