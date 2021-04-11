@@ -51,7 +51,7 @@ class _DiagnosisPageState extends State<DiagnosisPage> {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 18,
-                          fontFamily: 'Quicksand-SemiBold'
+                          fontFamily: 'Quicksand-Bold'
                         ),
                       ),
                       SizedBox(height: 20,),
@@ -60,13 +60,14 @@ class _DiagnosisPageState extends State<DiagnosisPage> {
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontSize: 18,
-                          fontFamily: 'Quicksand-SemiBold'
+                          fontFamily: 'Quicksand-Bold'
                         ),
                       ),
                       Text(
                         '${Diagnosis.diagnosis[index]['Issue']['IcdName']}',
                         style: TextStyle(
-                          fontSize: 16,                          
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold                       
                         ),
                       ),
                       SizedBox(height: 20,),
@@ -75,7 +76,7 @@ class _DiagnosisPageState extends State<DiagnosisPage> {
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontSize: 18,
-                          fontFamily: 'Quicksand-SemiBold'
+                          fontFamily: 'Quicksand-Bold'
                         ),
                       ),
                       Expanded(
@@ -85,7 +86,9 @@ class _DiagnosisPageState extends State<DiagnosisPage> {
                           itemCount: Diagnosis.diagnosis[index]['Specialisation'].length,
                           itemBuilder: (context, listIndex) {                        
                             return ListTile(
-                              title: Text(Diagnosis.diagnosis[index]['Specialisation'][listIndex]['Name']),
+                              title: Text(Diagnosis.diagnosis[index]['Specialisation'][listIndex]['Name'], style: TextStyle(
+                                fontWeight: FontWeight.bold
+                              ),),
                             );
                           },
                         ),
