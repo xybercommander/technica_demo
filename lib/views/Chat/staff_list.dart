@@ -34,6 +34,7 @@ class _StaffListState extends State<StaffList> {
             fontFamily: 'Quicksand-Bold',
             fontSize: 24
           ),),
+        iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
       ),
 
       body: StreamBuilder(
