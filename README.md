@@ -7,6 +7,7 @@
 
 A Flutter project for correct diagnosis of a person with observable Health Symptoms<br>
 <ul>
+  <li>The apk can be found here: https://drive.google.com/file/d/1zfBKhScExqvfREm6oAX_8XJN_Rpe0jNs/view?usp=sharing<br></li>
   <li>The demo video can be found here: https://www.youtube.com/watch?v=-MChe1MvF6U&ab_channel=SamratMukherjee<br></li>
   <li>The Presentation(ppt) can be found here: https://www.canva.com/design/DAEbLHrAAj4/o4t-MiusVpeUzU045J1frg/view</li>
 </ul>
@@ -20,7 +21,8 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
 
 ## Implementations
 <ul>
-  <li><strong>Chat implementation can be found <a href="https://github.com/xybercommander/technica_demo/tree/master/lib/views/Chat">here</a><strong></li>
+  <li><strong>Chat implementation can be found <a href="https://github.com/xybercommander/technica_demo/tree/master/lib/views/Chat">here</a><strong>.<br>
+    For privacy of the chat and to prevent the leak of the chat through the Admin of the console of Firebase, I have encrypted the chats using AES encryption</li>
   <li><strong>Api implementation can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/api.dart">here</a><strong></li>
   <li><strong>All Firebase method implementaion can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/database.dart">here</a><strong>
 </ul>
