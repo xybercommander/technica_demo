@@ -1,16 +1,12 @@
-# technica_know_your_medic
+# Know Your Medic
 
 A new Flutter project.
 
-## Getting Started
+## A Flutter project made with ❤️
 
-This project is a starting point for a Flutter application.
+A Flutter project for correct diagnosis of a person with observable Health Symptoms
 
-A few resources to get you started if this is your first Flutter project:
+## The Api used
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The api which I used in this project is: https://apimedic.com/
+<img src="https://i.imgur.com/1i5yMeF.png">
