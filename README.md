@@ -19,7 +19,24 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
 <ul>
   <li><strong>Chat implementation can be found <a href="https://github.com/xybercommander/technica_demo/tree/master/lib/views/Chat">here</a><strong></li>
   <li><strong>Api implementation can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/api.dart">here</a><strong></li>
-  <li><strong>All Firebase implementaion can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/database.dart">here</a><strong>
+  <li><strong>All Firebase method implementaion can be found <a href="https://github.com/xybercommander/technica_demo/blob/master/lib/services/database.dart">here</a><strong>
 </ul>
 
 ## Packages used
+<ul>
+  <li>clippy_flutter: ^1.1.1</li>
+  <li>page_transition: ^1.1.7+6</li>
+  <li>firebase_auth: ^1.0.1</li>
+  <li>firebase_core: ^1.0.2</li>
+  <li>cloud_firestore: ^1.0.3</li>
+  <li>image_picker: ^0.7.4</li>
+  <li>fluttertoast: ^7.1.6</li>
+  <li>shared_preferences: ^2.0.5</li>
+  <li>firebase_storage: ^8.0.1</li>
+  <li>cached_network_image: ^3.0.0</li>
+  <li>http: ^0.13.1</li>
+  <li>flutter_swiper: ^1.1.6</li>
+  <li>encrypt: ^5.0.0</li>
+  <li>random_string: ^2.1.0</li>
+  <li>lottie: ^1.0.1 </li>
+</ul>
