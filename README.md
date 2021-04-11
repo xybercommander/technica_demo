@@ -1,6 +1,8 @@
 # Know Your Medic
 
-A new Flutter project.
+<p align="center">
+  <img src="https://i.imgur.com/2C01HLM.png">
+</p>
 
 ## A Flutter project made with ❤️
 
