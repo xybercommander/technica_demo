@@ -43,12 +43,12 @@ The api which I used in this project is: https://apimedic.com/ <br><br>
 
 ## Screenshots of different Views in the Application
 <ul>
-  <li><h3>Get Started Page</h3><br><img src="https://i.imgur.com/2C01HLM.png"></li>
-  <li><h3>Sign Up Page</h3><br><img src="https://i.imgur.com/7yNAMdy.png"></li>
-  <li><h3>Sign In Page</h3><br><img src="https://i.imgur.com/mhOh4jK.png"></li>
-  <li><h3>Symptoms List Page</h3><br><img src="https://i.imgur.com/otRh7w8.png"></li>
-  <li><h3>Patient Details Page</h3><br><img src="https://i.imgur.com/L6SdKF7.png"></li>
-  <li><h3>Digital Diagnosis Page</h3><br><img src="https://i.imgur.com/5TEP3Dt.png"></li>
-  <li><h3>Chatrooms List Page</h3><br><img src="https://i.imgur.com/BUgmjIg.png"></li>
-  <li><h3>Chat Screen Page</h3><br><img src="https://i.imgur.com/jw1Nkcl.png"></li>
+  <li><h3>Get Started Page</h3><br><img width="300" height="600" src="https://i.imgur.com/2C01HLM.png"></li>
+  <li><h3>Sign Up Page</h3><br><img width="300" height="600" src="https://i.imgur.com/7yNAMdy.png"></li>
+  <li><h3>Sign In Page</h3><br><img width="300" height="600" src="https://i.imgur.com/mhOh4jK.png"></li>
+  <li><h3>Symptoms List Page</h3><br><img width="300" height="600" src="https://i.imgur.com/otRh7w8.png"></li>
+  <li><h3>Patient Details Page</h3><br><img width="300" height="600" src="https://i.imgur.com/L6SdKF7.png"></li>
+  <li><h3>Digital Diagnosis Page</h3><br><img width="300" height="600" src="https://i.imgur.com/5TEP3Dt.png"></li>
+  <li><h3>Chatrooms List Page</h3><br><img width="300" height="600" src="https://i.imgur.com/BUgmjIg.png"></li>
+  <li><h3>Chat Screen Page</h3><br><img width="300" height="600" src="https://i.imgur.com/jw1Nkcl.png"></li>
 </ul>
